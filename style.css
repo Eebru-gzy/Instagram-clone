@@ -6,6 +6,8 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #262626;
 }
 
 #navbar {
@@ -37,9 +39,14 @@ body {
     margin-top: 10px;
 }
 
+#navbar .home-logo div svg {
+    cursor: pointer;
+}
+
 #navbar .home-logo .instagram-text img {
     height: 29px;
     width: 109px;
+    cursor: pointer;
 }
 
 #navbar .user-icon-div {
@@ -61,6 +68,7 @@ body {
     border: 1px solid #ddd;
     padding: 7px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 #navbar .container input:focus {
@@ -82,6 +90,9 @@ body {
     justify-content: space-between;
 }
 
+#navbar .container .user-icon-div .user-icon-container div svg {
+    cursor: pointer;
+}
 
 
 /* Main Body Starts */
@@ -111,17 +122,6 @@ body {
     padding: 0 16px;
 }
 
-#main-body .section-body .top .profile-pic .gradient {
-    /* height: 42px;
-    width: 42px;
-    border-width: 2px;
-    border-color: radial-gradient(closest-side rgb(231, 27, 139), rgb(231, 126, 5));
-    border-style: solid;
-    text-align: center;
-    position: relative;
-    border-radius: 100%; */
-
-}
 
 #main-body .section-body .top .profile-pic .gradient img {
     height: 42px;
@@ -133,6 +133,7 @@ body {
     border-width: 2px;
     border-style: solid;
     border-color: red;
+    cursor: pointer;
 }
 
 #main-body .section-body .top .right {
@@ -147,6 +148,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     color: #262626;
+    cursor: pointer;
 }
 
 #main-body .section-body .top .right .dots {
@@ -155,6 +157,128 @@ body {
     font-stretch: ultra-expanded;
     width: 16px;
     height: 10px;
+    cursor: pointer;
 
 }
+
+/* image sections */
+
+#main-body .section-body .image {
+    width: 614px;
+    position: relative;
+}
+#main-body .section-body .image img {
+    width: 614px;
+    cursor: pointer;
+}
+
+.down-section {
+    border-left: #ddd 1px solid;
+    border-right: #ddd 1px solid;
+    border-bottom: #ddd 1px solid;
+    width: 614px;
+    margin-top: -3px;
+
+}
+
+#main-body .section-body .like-section {
+    display: flex;
+    justify-content: space-between;
+    width: 614px;
+    padding: 0 16px;
+    padding-top: 8px;
+    /* border; */
+}
+
+#main-body .section-body .like-section .left span {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#main-body .section-body .like-section .right svg {
+    cursor: pointer;
+}
+
+
+
+#main-body .section-body .down-section .liked-by-div {
+    display: flex;
+    width: 614px;
+    height: 24px;
+    margin: 0 0 8px;
+    padding: 8px 16px;
+}
+
+#main-body .section-body .down-section .liked-by-div .img img {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#main-body .section-body .down-section .liked-by-div .p {
+    width: 554px;
+    height: 24px;
+    margin-left: 5px;
+}
+
+#main-body .section-body .down-section .liked-by-div .p  p {
+    font-size: 14px;
+}
+
+#main-body .section-body .down-section .liked-by-div .p  p .bold {
+    cursor: pointer;
+}
+
+/* utility class */
+
+.bold {
+    font-weight: bold;
+    color: #262626;
+    cursor: pointer;
+}
+
+.mention {
+    color: rgba(43, 43, 179, 0.8);
+    cursor: pointer;
+}
+
+/* utility ends */
+
+#main-body .section-body .down-section .user-caption-comment-section {
+    width: 614px;
+    padding: 0 16px;
+}
+
+.comment-view a{
+    color: #999999;
+    text-decoration: none;
+}
+
+.down-section .user-caption-comment-section  .text-area {
+    width: 614px;
+    height: 56px;
+    margin: 4px 0 0;
+    padding: 0 16px;
+}
+
+.down-section .user-caption-comment-section .text-area .form {
+    display: flex;
+}
+
+.down-section .user-caption-comment-section .text-area .form textarea {
+    width: 554.83px;
+    height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
