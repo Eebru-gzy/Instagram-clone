@@ -178,7 +178,7 @@ body {
     border-bottom: #ddd 1px solid;
     width: 614px;
     margin-top: -3px;
-
+    background-color: #fff;
 }
 
 #main-body .section-body .like-section {
@@ -255,21 +255,86 @@ body {
     text-decoration: none;
 }
 
-.down-section .user-caption-comment-section  .text-area {
+.time {
+    height: 19px;
+    width: 614;
+}
+.time p {
+    font-size: 10px;
+    color: #999999;
+}
+
+ .text-area {
     width: 614px;
     height: 56px;
-    margin: 4px 0 0;
+    margin: 4px 0 0 0;
+    border-top: #ddd 1px solid;
+}
+
+.text-area .form {
+    display: flex;
+    height: 56px;
+    align-items: center;
+    width: 614px;
+}
+
+.text-area .form textarea {
+    width: 564.83px;
+    height: 18px;
+    border: none;
+    resize: none;
+    overflow: hidden;
     padding: 0 16px;
 }
 
-.down-section .user-caption-comment-section .text-area .form {
-    display: flex;
+ .text-area .form textarea:focus {
+    outline: none;
 }
 
-.down-section .user-caption-comment-section .text-area .form textarea {
-    width: 554.83px;
-    height: 18px;
+
+
+.text-area .form textarea::placeholder {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #262626;
+    opacity: 0.5;
 }
+
+.text-area .form button {
+    border: none;
+    background-color: #fff;
+    color: rgba(43, 43, 179, 0.8);
+    font-weight: 500;
+    opacity: .5;
+}
+
+.text-area .form button:active {
+    outline: none;
+    border: none;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
