@@ -99,10 +99,9 @@ body {
 
 #main-body {
     background-color: #fafafa;
-    width: 100%;
-    position: relative;
+    width: 100vw;
+    position: absolute;
     top: 77px;
-    
 }
 
 #main-body .section-body {
@@ -573,6 +572,58 @@ body {
 
 
 
+/* media queries */
+
+@media screen and (max-width: 1025px) {
+
+    #main-body .section-body {
+        margin: 0px 44.5px;
+    }
+
+    .profile-section {
+        left: 700px;
+    } 
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #navbar .container {
+        width: 768px;
+        padding: 26px 20px;
+        
+    }
+
+    #main-body .section-body {
+        margin: 0px 84px;
+    }
+
+    .profile-section {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #navbar .container {
+        width: 450px;
+        padding: 26px 20px;
+    }
+
+    #navbar .container .search-input{
+        display: none;
+    }
+
+    #main-body {
+        
+    }
+
+    #main-body .section-body {
+        margin: 0 0;
+    }
+
+}
 
 
 
