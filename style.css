@@ -463,7 +463,7 @@ body {
 
 .profile-section .suggestion-section .top-section {
     display: flex;
-    margin: 16px 0 0;
+    margin: 16px 0 8px;
     padding: 4px 16px;
 }
 
@@ -488,16 +488,18 @@ body {
     font-weight: 500;
 }
 
+/* follow section */
 
 .profile-section .suggestion-section .follow-profile-section {
     display: flex;
-    padding: 8px 16px;
+    padding: 0 16px;
 }
 
 .profile-section .suggestion-section .follow-profile-section .profile-container {
     display: flex;
     justify-content: space-between;
     padding: 8px 0;
+    margin: ;
     height: 48px;
     width: 287px;    
 }
@@ -515,6 +517,50 @@ body {
     width: 32px;
     border-radius: 100%;
 }
+
+
+.profile-section .suggestion-section .follow-profile-section .profile-container .follow-profile .follow-name {
+    height: 18px;
+    width: 167.8px;
+}
+
+.profile-section .suggestion-section .follow-profile-section .profile-container .follow-profile .follow-status {
+    height: 14px;
+    width: 167.8px;
+    font-size: 12px;
+    color: #999999;
+    opacity: 0.8;
+}
+
+
+.profile-section .suggestion-section .follow-profile-section .profile-container .follow-btn a{
+    color: #3a97f0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
