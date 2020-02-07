@@ -454,8 +454,88 @@ body {
 }
 
 .profile-section .suggestion-section {
-    
+    width: 293px;
+    height: 197px;
+    margin: 12px 0;
+    border: 1px solid rgba(219, 219, 219, 1);
+    border-radius: 4px;
 }
+
+.profile-section .suggestion-section .top-section {
+    display: flex;
+    margin: 16px 0 0;
+    padding: 4px 16px;
+}
+
+.profile-section .suggestion-section .top-section .suggest-text {
+    width: 222.8px;
+    height: 18px;
+    margin:  -3px 0 -4px;
+}
+
+.profile-section .suggestion-section .top-section .suggest-text p {
+    color: #999999;
+    font-weight: 500;
+}
+
+.profile-section .suggestion-section .top-section .see {
+    margin: -2px 0 -3px -5px;
+}
+
+
+.profile-section .suggestion-section .top-section .see p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.profile-section .suggestion-section .follow-profile-section {
+    display: flex;
+    padding: 8px 16px;
+}
+
+.profile-section .suggestion-section .follow-profile-section .profile-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    height: 48px;
+    width: 287px;    
+}
+
+
+
+.profile-section .suggestion-section .follow-profile-section .profile-container .follow-img {
+    height: 42px;
+    width: 42px;
+}
+
+
+.profile-section .suggestion-section .follow-profile-section .profile-container .follow-img img {
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
