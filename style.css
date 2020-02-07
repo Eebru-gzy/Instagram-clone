@@ -459,6 +459,7 @@ body {
     margin: 12px 0;
     border: 1px solid rgba(219, 219, 219, 1);
     border-radius: 4px;
+    background-color: #fff;
 }
 
 .profile-section .suggestion-section .top-section {
@@ -499,7 +500,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 8px 0;
-    margin: ;
     height: 48px;
     width: 287px;    
 }
@@ -540,9 +540,36 @@ body {
 }
 
 
+/* About section starts */
 
+.li::after {
+    content: '•';
+    margin: 0px 2.75px;
+}
 
+.about-section {
+    height: 106px;
+    width: 293px;
+    padding: 0 0 38px;
+}
 
+.about-section .contain div {
+    width: 293px;
+    height: 39px;
+    margin: 0 0 10px;
+    /* border: 1px solid red; */
+}
+
+.about-section .contain div a {
+    color: #c7c7c7;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.about-section .c p {
+    color: #c7c7c7;
+    font-size: 11px;
+}
 
 
 
